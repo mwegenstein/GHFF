@@ -1,4 +1,4 @@
 GHFF
 ====
 
-Glaobal Health Fund Foundation Website
+Global Health Fund Foundation Website
