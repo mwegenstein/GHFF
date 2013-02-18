@@ -29,3 +29,29 @@ body {
 .full-width {
 	width: 100%;
 }
+.nav-bar {
+	background: transparent;
+}
+.nav-bar > li {
+border: none;
+}
+.nav-bar > li:last-child {
+border-right: none;
+}
+ul.flyout li, .nav-bar li ul li {
+border-left: none;
+}
+.flyout {
+	width: 150px;
+}
+ul.flyout li a, .nav-bar li ul li a {
+background: #fff;
+border:none;
+color: #555;
+}
+.strong {
+	font-weight: bold;
+}
+
+
+
