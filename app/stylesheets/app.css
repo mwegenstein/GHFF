@@ -1,57 +1,82 @@
 /* foundation overides */
+body {
+	padding-bottom: 30px;
+	background: url(../images/backgrounds/light_toast.png) repeat;
+	color: #18494E;
+}
 p {
 	margin: 0;
 	padding: 0;
 }
-
-/* base styles */
-body {
-	padding-bottom: 30px;
+a {
+	color: #031634
 }
 
 
-/* website styles */
-.logo-container {
-	background-color: blue;
-	height: 200px;
-}
-.tagline-container {
-	background-color: yellow;
-	height: 200px;
-}
-.full-styling {
-	width: 100%;
-	height:100%;
-}
+/* utility styles */
 .vert-pad {
-	padding: 20px 0px;
+	padding-bottom: 20px;
+	padding-top:20px;
 }
 .full-width {
 	width: 100%;
 }
-.nav-bar {
-	background: transparent;
-}
-.nav-bar > li {
-border: none;
-}
-.nav-bar > li:last-child {
-border-right: none;
-}
-ul.flyout li, .nav-bar li ul li {
-border-left: none;
-}
-.flyout {
-	width: 150px;
-}
-ul.flyout li a, .nav-bar li ul li a {
-background: #fff;
-border:none;
-color: #555;
+.full-height {
+	height: 100%;
 }
 .strong {
 	font-weight: bold;
 }
+
+/* website styles */
+.logo-container {
+	height: 120px;
+	background: url(../images/ghff_logo_black.png) no-repeat;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.nav-bar {
+	background: transparent;
+	border-bottom: #031634 3px solid;
+	height: 41px;
+}
+.nav-bar > li {
+	border: none;
+}
+.nav-bar > li:last-child {
+	border-right: none;
+}
+.nav-bar > li > a, .nav-bar > li > a:first-child {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+ul.flyout li, .nav-bar li ul li {
+	border-left: none;
+}
+.flyout {
+	width: 150px;
+	border: #031634 3px solid;
+	border-top: #031634 2px solid;
+}
+ul.flyout li a, .nav-bar li ul li a {
+	background: url(../images/backgrounds/light_toast.png) repeat;
+	border: none;
+	color: #555;
+}
+.nav-bar > li > a {
+	color: #18494E;
+
+}
+.nav-bar > li.active:hover,.nav-bar > li:hover { 
+	background: #66ACA1
+}
+
+.nav-bar > li.active { 
+	background: #18494E; 
+	}
+
+
 
 
 
