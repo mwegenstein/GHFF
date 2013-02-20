@@ -1,15 +1,17 @@
 /* foundation overides */
 body {
 	padding-bottom: 30px;
-	background: url(../images/backgrounds/light_toast.png) repeat;
-	color: #18494E;
+	background: url(../images/backgrounds/dark_geometric.png) repeat;
+	color: #fff;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 p {
 	margin: 0;
 	padding: 0;
+	font-size: 16px;
 }
 a {
-	color: #031634
+	color: #fff;
 }
 
 
@@ -27,55 +29,79 @@ a {
 .strong {
 	font-weight: bold;
 }
+.row {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 /* website styles */
-.logo-container {
-	height: 120px;
-	background: url(../images/ghff_logo_black.png) no-repeat;
-	margin-top: 50px;
-	margin-bottom: 20px;
+.meta {
+	margin-top: 40px;
 }
-.nav-bar {
-	background: transparent;
-	border-bottom: #031634 3px solid;
-	height: 41px;
+.meta-content p {
+	background: yellow;
+	color: #000;
+	padding: 3px 10px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	height: 21px;
+	float: right;
+	margin-right: -15px;
 }
-.nav-bar > li {
-	border: none;
+.header {
+	background: #fff;
+	padding: 20px 0;
+	height: 100px;
+	color: #000;
+	overflow: hidden;
 }
-.nav-bar > li:last-child {
-	border-right: none;
+.header .logo-container {
+	height: 60px;
+	/*background: url(../images/ghff_logo_black.png) no-repeat;*/
+	background: #ccc;
 }
-.nav-bar > li > a, .nav-bar > li > a:first-child {
+.header .nav {
+	list-style: none;
+	float: right;
+	margin: 38px 10px 0 0;
+	padding: 0;
+}
+.header .nav-item {
+	display: inline;
+	color: #000;
 	font-size: 16px;
-	text-transform: uppercase;
+	line-height: 16px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.header .active {
+	color: #000;
+}
+.header .nav-item a {
+	color: #b2b2b6;
+}
+.header .active a {
+	color: #000;
+}
+.header .nav-item a:hover {
+	color: #000;
+}
+
+/* Navigation */
+/*.nav {
+	list-style: none;
+	text-align: center;
+}
+.nav-item {
+	display: inline;
+	font-size: 29px;
+	letter-spacing: -2px;
+	padding: 10px 20px;
 	font-weight: bold;
 }
-ul.flyout li, .nav-bar li ul li {
-	border-left: none;
-}
-.flyout {
-	width: 150px;
-	border: #031634 3px solid;
-	border-top: #031634 2px solid;
-}
-ul.flyout li a, .nav-bar li ul li a {
-	background: url(../images/backgrounds/light_toast.png) repeat;
-	border: none;
-	color: #555;
-}
-.nav-bar > li > a {
-	color: #18494E;
-
-}
-.nav-bar > li.active:hover,.nav-bar > li:hover { 
-	background: #66ACA1
-}
-
-.nav-bar > li.active { 
-	background: #18494E; 
-	}
-
+.nav-item a {
+	color: #484A4C;
+}*/
 
 
 
