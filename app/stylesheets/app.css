@@ -5,6 +5,12 @@ body {
 	color: #fff;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+.half {
+	color:#3D3D3D;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
 p {
 	margin: 0;
 	padding: 0;
@@ -12,6 +18,12 @@ p {
 }
 a {
 	color: #fff;
+}
+
+.small {
+	color: #3D3D3D;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 12px;
 }
 
 .link {
