@@ -14,6 +14,20 @@ a {
 	color: #fff;
 }
 
+.link {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.pad {
+	padding-top: 15px
+}
+
+.long-text {
+	font: 13px/21px Georgia, "Times New Roman", Times, serif;
+	color: #555;
+}
 
 /* utility styles */
 .vert-pad {
@@ -50,20 +64,20 @@ a {
 }
 .header {
 	background: #fff;
-	padding: 20px 0;
+	padding: 15px 0;
 	height: 100px;
 	color: #000;
 	overflow: hidden;
 }
 .header .logo-container {
-	height: 60px;
+	height: 70px;
 	/*background: url(../images/ghff_logo_black.png) no-repeat;*/
 	background: #ccc;
 }
 .header .nav {
 	list-style: none;
 	float: right;
-	margin: 38px 10px 0 0;
+	margin: 48px 10px 0 0;
 	padding: 0;
 }
 .header .nav-item {
@@ -86,22 +100,43 @@ a {
 .header .nav-item a:hover {
 	color: #000;
 }
+.body {
+	background: #fff;
+	padding: 15px 0;
+	color: #000;
+}
+.footer {
+	background: #18191A;
+	padding: 15px 0;
+	color: #fff;
 
-/* Navigation */
-/*.nav {
-	list-style: none;
-	text-align: center;
+
+	height: 200px;
 }
-.nav-item {
-	display: inline;
-	font-size: 29px;
-	letter-spacing: -2px;
-	padding: 10px 20px;
-	font-weight: bold;
+
+.link a {
+	color: #000;
 }
-.nav-item a {
-	color: #484A4C;
-}*/
+.link .active a {
+	color: #000;
+}
+.link a:hover {
+	color: #b2b2b6;
+}
+
+/* SCHEDULE PAGE */
+.person-box {
+	width: 100%;
+	clear: both;
+}
+.person-image {
+	float: left;
+	width: 200px;
+}
+.person-text {
+	float: right;
+	width: 700px;
+}
 
 
 
