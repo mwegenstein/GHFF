@@ -11,6 +11,7 @@ body {
 	font-size: 14px;
 }
 
+
 p {
 	margin: 0;
 	padding: 0;
@@ -20,6 +21,10 @@ a {
 	color: #fff;
 }
 
+h5 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+
+}
 .small {
 	color: #3D3D3D;
 	font-family: Georgia, 'Times New Roman', Times, serif;
@@ -37,8 +42,18 @@ a {
 }
 
 .long-text {
-	font: 13px/21px Georgia, "Times New Roman", Times, serif;
+	font: 14px/21px Georgia, "Times New Roman", Times, serif;
+	color:#4D4D4D;
+}
+
+.home-text {
+	display: inline-block;
+	width: 200px;
+	float: right;
+	font: 18px/21px Georgia, "Times New Roman", Times, serif;
 	color: #555;
+	line-height: 1.8;
+	padding-top: 10px;
 }
 
 /* utility styles */
@@ -61,6 +76,36 @@ a {
 }
 
 /* website styles */
+
+/* navigation global styling */
+.nav {
+	list-style: none;
+	float: right;
+	padding: 0;
+}
+.nav .nav-item {
+	display: inline;
+	color: #000;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.nav .active {
+	color: #000;
+}
+.nav .nav-item a {
+	color: #b2b2b6;
+}
+.nav .active a {
+	color: #000;
+}
+.nav .nav-item a:hover {
+	color: #000;
+}
+
+/* header styling */
+
 .meta {
 	margin-top: 40px;
 }
@@ -86,32 +131,11 @@ a {
 	/*background: url(../images/ghff_logo_black.png) no-repeat;*/
 	background: #ccc;
 }
-.header .nav {
-	list-style: none;
-	float: right;
+.header .main-nav {
 	margin: 48px 10px 0 0;
-	padding: 0;
 }
-.header .nav-item {
-	display: inline;
-	color: #000;
-	font-size: 16px;
-	line-height: 16px;
-	font-weight: bold;
-	margin-left: 20px;
-}
-.header .active {
-	color: #000;
-}
-.header .nav-item a {
-	color: #b2b2b6;
-}
-.header .active a {
-	color: #000;
-}
-.header .nav-item a:hover {
-	color: #000;
-}
+
+
 .body {
 	background: #fff;
 	padding: 15px 0;
@@ -121,8 +145,6 @@ a {
 	background: #18191A;
 	padding: 15px 0;
 	color: #fff;
-
-
 	height: 200px;
 }
 
@@ -150,6 +172,12 @@ a {
 	width: 700px;
 }
 
+.video {
+	display:inline-block;
+	height: 350px;
+	width: 700px;
+	background-color: transparent;
+}
 
 
 
