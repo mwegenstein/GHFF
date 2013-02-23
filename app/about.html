@@ -18,38 +18,38 @@
 		<script src="javascripts/modernizr.foundation.js"></script>
 </head>
 <body>
-	<div class="meta row">
-		<div class="four columns offset-by-eight">
-			<div class="meta-content">
-				<p> 7pm Saturday, July 16th 2013</p>
+		<div class="meta row">
+			<div class="four columns offset-by-eight">
+				<div class="meta-content">
+					<p>7pm Saturday, July 16th 2013</p>
+				</div>
 			</div>
 		</div>
-	</div>
 
-	<div class="header row">
-		<div class="five columns">
-			<div class="logo-container"></div>
+		<div class="header row">
+			<div class="five columns">
+				<div class="logo-container"></div>
+			</div>
+			<div class="seven columns">
+				<ul class="nav">
+					<li class="nav-item ">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="nav-item active">
+						<a href="about.html">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="schedule.html">Schedule</a>
+					</li>
+					<li class="nav-item">
+						<a href="submit.html">Submit A Film</a>
+					</li>
+					<li class="nav-item">
+						<a href="join.html">Join us</a>
+					</li>
+				</ul>
+			</div>
 		</div>
-		<div class="seven columns">
-			<ul class="nav">
-				<li class="nav-item ">
-					<a href="index.html">Home</a>
-				</li>
-				<li class="nav-item active">
-					<a href="about.html">About</a>
-				</li>
-				<li class="nav-item">
-					<a href="schedule.html">Schedule</a>
-				</li>
-				<li class="nav-item">
-					<a href="submit.html">Submit A Film</a>
-				</li>
-				<li class="nav-item">
-					<a href="join.html">Join us</a>
-				</li>
-			</ul>
-		</div>
-	</div>
 
 		<div class="body row">
 			<div class="twelve columns content-container">
@@ -69,21 +69,32 @@
 					</div>
 				</div>
 			</div>
-	<div class="twelve columns">
-		<p> Test Text, image?</p>
-					
-	</div>
-</div>
-	<div class="footer row">
-		<div class="twelve columns">
-			<div class="content">
-				This is some footer content
+			<div class="twelve columns">
+			<div class="orbit-wrapper" style="width: 700px; height: 450px;">
+				<div id="featured" class="orbit" style="width: inherit; height: inherit;">
+					<img src="http://placekitten.com/700/450">
+					<img src="http://placekitten.com/700/450">
+					<img src="http://placekitten.com/700/450">
+					<img src="http://placekitten.com/700/450">
+					<img src="http://placekitten.com/700/450">
+				</div>
 			</div>
 		</div>
-	</div>
+		</div>
+		
+		<div class="footer row">
+			<div class="twelve columns">
+				<div class="content">This is some footer content</div>
+			</div>
+		</div>
 
-	<script src="javascripts/jquery.js"></script>
-	<script src="javascripts/foundation.min.js"></script>
-	<script src="javascripts/app.js"></script>
+		<script src="javascripts/jquery.js"></script>
+		<script src="javascripts/foundation.min.js"></script>
+		<script src="javascripts/app.js"></script>
+		<script type="text/javascript"> 
+		$(window).load(function() {
+		$("#featured").orbit();
+   		});
+</script>
 </body>
-</html>
+	</html>
