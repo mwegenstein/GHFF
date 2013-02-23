@@ -44,12 +44,18 @@ a {
 
 .home-text {
 	display: inline-block;
-	width: 200px;
-	float: right;
-	font: 18px/21px Georgia, "Times New Roman", Times, serif;
+	font: 13px Georgia, "Times New Roman", Times, serif;
 	color: #555;
-	line-height: 1.8;
-	padding-top: 10px;
+	line-height: 21px;
+}
+
+.title { 
+	font-size: 24px; 
+	letter-spacing: -1px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	line-height: 90%;
+	
 }
 
 /* utility styles */
@@ -170,7 +176,7 @@ a {
 
 .video {
 	display:inline-block;
-	height: 350px;
+	height: 425px;
 	width: 700px;
 	background-color: transparent;
 }
