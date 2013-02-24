@@ -52,36 +52,45 @@
 		</div>
 
 		<div class="body row">
-			<div class="twelve columns content-container">
+			<div class="twelve columns">
 				<div class="row">
-					<div class="twelve columns">
-						<ul class="nav sub-nav">
-							<li class="nav-item">
-								<a href="who.html">Who</a>
-							</li>
-							<li class="nav-item">
-								<a href="why.html">Why</a>
-							</li>
-							<li class="nav-item">
-								<a href="partners.html">Partners</a>
-							</li>
-						</ul>
+					<div class="twelve columns content-container">
+						<div class="row">
+							<div class="twelve columns">
+								<ul class="nav sub-nav">
+									<li class="nav-item">
+										<a href="who.html">Who</a>
+									</li>
+									<li class="nav-item">
+										<a href="why.html">Why</a>
+									</li>
+									<li class="nav-item">
+										<a href="partners.html">Partners</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="nine columns">
+						<div class="orbit-wrapper">
+							<div id="featured-images">
+								<img src="http://placekitten.com/700/1000">
+								<img src="http://placekitten.com/700/450">
+								<img src="http://placekitten.com/700/450">
+								<img src="http://placekitten.com/700/450">
+								<img src="http://placekitten.com/700/450">
+							</div>
+						</div>
+					</div>
+					<div class="three columns">
+						three columns content goes here
 					</div>
 				</div>
 			</div>
-			<div class="twelve columns">
-			<div class="orbit-wrapper" style="width: 700px; height: 450px;">
-				<div id="featured" class="orbit" style="width: inherit; height: inherit;">
-					<img src="http://placekitten.com/700/450">
-					<img src="http://placekitten.com/700/450">
-					<img src="http://placekitten.com/700/450">
-					<img src="http://placekitten.com/700/450">
-					<img src="http://placekitten.com/700/450">
-				</div>
-			</div>
 		</div>
-		</div>
-		
+
 		<div class="footer row">
 			<div class="twelve columns">
 				<div class="content">This is some footer content</div>
@@ -92,9 +101,9 @@
 		<script src="javascripts/foundation.min.js"></script>
 		<script src="javascripts/app.js"></script>
 		<script type="text/javascript"> 
-		$(window).load(function() {
-		$("#featured").orbit();
-   		});
-</script>
+			$(window).load(function() {
+				$("#featured-images").orbit();
+   			});
+		</script>
 </body>
 	</html>
