@@ -11,6 +11,13 @@ body {
 	font-size: 14px;
 }
 
+.submit-now {
+	color:#000;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px 0px;
+}
 
 p {
 	margin: 0;
@@ -104,6 +111,13 @@ a {
 /* website styles */
 
 /* navigation global styling */
+#social-icons {
+	float: right;
+	padding-top: 15px;
+	width: 98px;
+	margin-right: -20px;
+}
+
 .nav {
 	list-style: none;
 	float: right;
@@ -132,16 +146,14 @@ a {
 
 /* header styling */
 
-.meta {
-	margin-top: 40px;
-}
 .meta-content p {
 	background: yellow;
 	color: #000;
-	padding: 3px 10px;
+	padding: 0px 15px;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 11px;
 	height: 21px;
+	line-height: 21px;
 	float: right;
 	margin-right: -15px;
 }
@@ -171,7 +183,8 @@ a {
 	background: #18191A;
 	padding: 15px 0;
 	color: #fff;
-	height: 200px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 13px;
 }
 
 .link a {
