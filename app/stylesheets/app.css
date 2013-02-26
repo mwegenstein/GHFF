@@ -59,7 +59,7 @@ a {
 }
 
 .title { 
-	font-size: 32px;
+	font-size: 28px;
 	line-height: 32px; 
 	letter-spacing: -1px;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -165,9 +165,16 @@ a {
 	overflow: hidden;
 }
 .header .logo-container {
-	height: 70px;
 	/*background: url(../images/ghff_logo_black.png) no-repeat;*/
-	background: #ccc;
+	width:390px;
+	height: 70px;
+	/*background: #ccc;*/
+	color:#000;
+
+}
+.header .logo-container img {
+	width: 320px;
+	height: 70px;
 }
 .header .main-nav {
 	margin: 48px 10px 0 0;
