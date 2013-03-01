@@ -11,7 +11,7 @@ body {
 	font-size: 14px;
 }
 
-.submit-now {
+.submit-now a {
 	color:#000;
 	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 20px;
@@ -109,6 +109,11 @@ ol {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	line-height: 95%;
+}
+
+.top-pad {
+	padding-top: 30px;
+	padding-bottom: 5px
 }
 
 /* website styles */
@@ -227,6 +232,21 @@ ol {
 	width: 700px;
 	background-color: transparent;
 }
+
+.schedule {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 10px
+}
+.schedule a {
+	color: #000;
+}
+.schedule a:hover {
+	color: #b2b2b6;
+}
+
+/*SLIDER*/
 
 .orbit-wrapper #featured-images img {
 	height: 450px;
